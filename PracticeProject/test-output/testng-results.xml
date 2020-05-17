@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNgSuite" duration-ms="91864" started-at="2020-05-18T01:15:34 IST" finished-at="2020-05-18T01:17:06 IST">
+    <groups>
+    </groups>
+    <test name="Practice Automation Test" duration-ms="91864" started-at="2020-05-18T01:15:34 IST" finished-at="2020-05-18T01:17:06 IST">
+      <class name="com.automation.tests.PracticeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="setup" is-config="true" duration-ms="125" started-at="2020-05-18T01:15:34 IST" finished-at="2020-05-18T01:15:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createAccountTest()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="createAccountTest" duration-ms="38350" started-at="2020-05-18T01:15:34 IST" finished-at="2020-05-18T01:16:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="addProductIntoCart()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="addProductIntoCart" duration-ms="32721" started-at="2020-05-18T01:16:13 IST" depends-on-methods="com.automation.tests.PracticeTest.createAccountTest" finished-at="2020-05-18T01:16:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductIntoCart -->
+        <test-method status="PASS" signature="verifyTodatPriceOrderSummaryPage()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="verifyTodatPriceOrderSummaryPage" duration-ms="105" started-at="2020-05-18T01:16:45 IST" depends-on-methods="com.automation.tests.PracticeTest.addProductIntoCart" finished-at="2020-05-18T01:16:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTodatPriceOrderSummaryPage -->
+        <test-method status="PASS" signature="proceedToChkOut()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="proceedToChkOut" duration-ms="9501" started-at="2020-05-18T01:16:45 IST" depends-on-methods="com.automation.tests.PracticeTest.verifyTodatPriceOrderSummaryPage" finished-at="2020-05-18T01:16:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToChkOut -->
+        <test-method status="PASS" signature="verifyTotalPriceOnPaymentSummaryPage()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="verifyTotalPriceOnPaymentSummaryPage" duration-ms="5953" started-at="2020-05-18T01:16:55 IST" depends-on-methods="com.automation.tests.PracticeTest.proceedToChkOut" finished-at="2020-05-18T01:17:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPriceOnPaymentSummaryPage -->
+        <test-method status="PASS" signature="verifyOrderHistory()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="verifyOrderHistory" duration-ms="4422" started-at="2020-05-18T01:17:01 IST" depends-on-methods="com.automation.tests.PracticeTest.verifyTotalPriceOnPaymentSummaryPage" finished-at="2020-05-18T01:17:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderHistory -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.automation.tests.PracticeTest@221a3fa4]" name="endTest" is-config="true" duration-ms="495" started-at="2020-05-18T01:17:05 IST" finished-at="2020-05-18T01:17:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.automation.tests.PracticeTest -->
+    </test> <!-- Practice Automation Test -->
+  </suite> <!-- TestNgSuite -->
+</testng-results>

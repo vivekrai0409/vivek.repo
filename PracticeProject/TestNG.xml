@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNgSuite" >
+
+ <test name="Practice Automation Test">    
+    <classes>
+       <class name="com.automation.tests.PracticeTest"/>
+    </classes>
+    </test>
+</suite>
